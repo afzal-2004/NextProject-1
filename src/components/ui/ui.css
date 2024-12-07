@@ -1,0 +1,8 @@
+.scrollbar_hidden::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
+
+.scrollbar_hidden {
+  scrollbar-width: none;
+  @apply md:w-[50%] w-[100%] mt-4 md:mt-0  relative p-4 border border-red-500/* For Firefox */;
+}
